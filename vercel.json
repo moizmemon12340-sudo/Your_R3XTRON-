@@ -1,5 +1,4 @@
 {
-  "version": 2,
   "builds": [
     {
       "src": "index.py",
@@ -7,10 +6,6 @@
     }
   ],
   "routes": [
-    {
-      "src": "/api/bgmi/(.*)",
-      "dest": "index.py"
-    },
     {
       "src": "/(.*)",
       "dest": "index.py"
