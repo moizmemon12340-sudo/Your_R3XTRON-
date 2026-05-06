@@ -8,7 +8,7 @@ def get_username(uid):
     url = f"https://id-game-checker.p.rapidapi.com/bgmi/{uid}"
     headers = {
         "x-rapidapi-host": "id-game-checker.p.rapidapi.com",
-        "x-rapidapi-key": "4031d8fca9mshd856dbf4ba5f5e5p1ad3bejsnd6dbde6aa518"
+        "x-rapidapi-key": "APKI_RAPID_API_KEY"
     }
     try:
         response = requests.get(url, headers=headers)
