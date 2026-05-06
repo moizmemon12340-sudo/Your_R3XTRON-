@@ -8,6 +8,10 @@
   ],
   "routes": [
     {
+      "src": "/api/bgmi/(.*)",
+      "dest": "index.py"
+    },
+    {
       "src": "/(.*)",
       "dest": "index.py"
     }
